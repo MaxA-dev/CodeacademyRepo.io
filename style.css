@@ -16,14 +16,28 @@
     width: 100%;
     border-bottom: 1px solid seashell;
     padding: 10px;
-
-
 }
 
 .alignright{
     justify-content: space-between;
     margin-right: 20px;
     display: inline-flex;
+}
 
+.hero {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*e04zl7*_gcl_aw*R0NMLjE3MzY0NTA5MjMuQ2p3S0NBaUFoUDY3QmhBVkVpd0EyRV85ZzRXdFZHVmp0eUFpaE1Gc2NhaWFKTEJtMWNJdUFKOEFCVzBwenJPdjdhNFBXcGIyOTZEeFVob0NhTzhRQXZEX0J3RQ..*_gcl_au*MTAzOTA4NzI5OC4xNzM2NDUwNDE1*_ga*NDY3MzgzODY4MS4xNzM2NDUwNTYz*_ga_3LRZM6TM9L*MTczNzA1Nzg5OC4xNC4xLjE3MzcwNTg4NTAuMC4wLjA.");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    align-content: center;
+    flex-direction: row;
+}
 
+.container {
+    background-color: black;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
 }
