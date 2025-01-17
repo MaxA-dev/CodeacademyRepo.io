@@ -1,0 +1,26 @@
+*{
+    font-family: Helvetica;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+.headerTop {
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    padding: 10px;
+
+
+}
+
+.alignright{
+    justify-content: flex-end;
+
+}
