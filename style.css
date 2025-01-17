@@ -1,5 +1,5 @@
 *{
-    font-family: Helvetica;
+    font-family: "Helvetica", serif, sans-serif;
     background-color: black;
     color: seashell;
     opacity: 0.9;
@@ -21,6 +21,9 @@
 }
 
 .alignright{
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-right: 20px;
+    display: inline-flex;
+
 
 }
